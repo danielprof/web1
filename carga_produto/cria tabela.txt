@@ -1,0 +1,6 @@
+CREATE TABLE produto (
+  idProduto int(11) NOT NULL PRIMARY KEY auto_increment,
+  nomeProduto varchar(30) default NULL,
+  preco numeric(10,2),
+  estoque int
+);
